@@ -1,0 +1,24 @@
+{
+  "name": "0ddbird-dark-theme",
+  "displayName": "0ddbird Dark Theme",
+  "description": "A custom dark theme",
+  "publisher": "0ddbird",
+  "version": "0.0.1",
+  "licence": "SEE IN LICENSE file",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": ["dark", "theme"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "0ddbird_dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/0ddbird-color-theme.json"
+      }
+    ]
+  }
+}
